@@ -6,8 +6,8 @@
 '''
 n = int(input())
 lst = list(map(int, input().split()))
-
 tree = [[] for _ in range(n)]
+
 def mk_tree(lst, s):
     m = len(lst)//2
     tree[s].append(lst[m])
